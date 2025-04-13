@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #ff5e78;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: #ffe3ec;
+  }
+  
+  .hero-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form Section */
+  .form-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* About Us */
+  .about-us {
+    background: #fff5f8;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background: #ff5e78;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+
+
+  .form-link-card {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #fff0f5;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255, 0, 76, 0.2);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .form-banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .form-banner:hover {
+    transform: scale(1.03);
+  }
+  
+  .form-link-text {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #d6336c;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .form-link-text:hover {
+    text-decoration: underline;
+  }
+  
